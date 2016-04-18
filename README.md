@@ -1,6 +1,8 @@
 # LiveImageBackground
 Move your background/imageview in compliance with data obtained from gyroscope
 
+# Presentation
+![](docs/app-presentation.gif)
 ## Usage
 
 ```java
