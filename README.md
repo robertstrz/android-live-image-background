@@ -1,6 +1,7 @@
 # LiveImageBackground
 Move your background/imageview in compliance with data obtained from gyroscope
 
+[![Build Status](https://travis-ci.org/Rzodkiewka/LiveImageBackground.svg?branch=master)](https://travis-ci.org/Rzodkiewka/LiveImageBackground)
 # Presentation
 ![](docs/app-presentation.gif)
 ## Usage
