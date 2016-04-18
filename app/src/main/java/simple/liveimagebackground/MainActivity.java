@@ -8,7 +8,7 @@ import simple.liveimagelibrary.LiveBackgroundImageView;
 
 public class MainActivity extends AppCompatActivity {
 
-    LiveBackgroundImageView mImage;
+    LiveBackgroundImageView imageView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onContentChanged() {
         super.onContentChanged();
-        mImage = (LiveBackgroundImageView) findViewById(R.id.image);
+        imageView = (LiveBackgroundImageView) findViewById(R.id.image);
     }
 
     @Override
     protected void onDestroy() {
-        mImage.stopGyroscope();
+        imageView.stopGyroscope();
         super.onDestroy();
     }
 }
