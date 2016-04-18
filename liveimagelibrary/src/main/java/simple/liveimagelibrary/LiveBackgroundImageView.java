@@ -1,11 +1,5 @@
 /*
- * TouchImageView.java
- * By: Michael Ortiz
- * Updated By: Patrick Lackemacher
- * Updated By: Babay88
- * Updated By: @ipsilondev
- * Updated By: hank-cp
- * Updated By: singpolyma
+ * LiveBackgroundImageView.java
  * Changed By: Robert Strzępka
  * -------------------
  */
@@ -132,7 +126,7 @@ public class LiveBackgroundImageView extends ImageView implements SensorEventLis
     @Override
     public void setScaleType(ScaleType type) {
         if (type == ScaleType.FIT_START || type == ScaleType.FIT_END) {
-            throw new UnsupportedOperationException("TouchImageView does not support FIT_START or FIT_END");
+            throw new UnsupportedOperationException("LiveBackgroundImageView does not support FIT_START or FIT_END");
         }
         if (type == ScaleType.MATRIX) {
             super.setScaleType(ScaleType.MATRIX);
@@ -356,7 +350,7 @@ public class LiveBackgroundImageView extends ImageView implements SensorEventLis
                 //
                 // FIT_START and FIT_END not supported
                 //
-                throw new UnsupportedOperationException("TouchImageView does not support FIT_START or FIT_END");
+                throw new UnsupportedOperationException("LiveBackgroundImageView does not support FIT_START or FIT_END");
 
         }
 
